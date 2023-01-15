@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-15T20:36:59 EET" name="Default suite" finished-at="2023-01-15T20:37:09 EET" duration-ms="9341">
+    <groups>
+    </groups>
+    <test started-at="2023-01-15T20:36:59 EET" name="Default test" finished-at="2023-01-15T20:37:09 EET" duration-ms="9341">
+      <class name="manager.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:manager.Login@173373b4]" started-at="2023-01-15T20:36:59 EET" name="setup" finished-at="2023-01-15T20:37:02 EET" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginAsCustomer()[pri:1, instance:manager.Login@173373b4]" started-at="2023-01-15T20:37:02 EET" name="LoginAsCustomer" finished-at="2023-01-15T20:37:03 EET" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAsCustomer -->
+        <test-method signature="OpenAccountAsManager()[pri:2, instance:manager.Login@173373b4]" started-at="2023-01-15T20:37:03 EET" name="OpenAccountAsManager" finished-at="2023-01-15T20:37:04 EET" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccountAsManager -->
+        <test-method signature="Custumers()[pri:3, instance:manager.Login@173373b4]" started-at="2023-01-15T20:37:04 EET" name="Custumers" finished-at="2023-01-15T20:37:09 EET" duration-ms="4608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Custumers -->
+      </class> <!-- manager.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
